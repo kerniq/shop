@@ -1,0 +1,4 @@
+/mysite/mysite/__pycache__/
+/mysite/shopapp/__pycache__/
+/mysite/shopapp/migrations/__pycache__/
+/mysite/shopapp/management/commands/__pycache__/
