@@ -11,18 +11,9 @@
     <div>
         <form method="post">
             {% csrf_token %}
-            <p>
-                <label for="name-id">Full name:</label>
-                <input type="text" name="name" id="name-id" maxlength="10">
-            </p>
-            <p>
-                <label for="age">Age:</label>
-                <input type="number" name="age" id="age" min="0" max="200">
-            </p>
-            <p>
-                <label for="bio"></label>
-                <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
-            </p>
+            
+            {{ form.as_p }}
+
             <button type="submit">
                 Submit
             </button>
